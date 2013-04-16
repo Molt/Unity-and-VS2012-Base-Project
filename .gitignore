@@ -1,0 +1,63 @@
+# https://github.com/Molt/Unity-and-VS2012-Base-Project
+# .gitignore for Unity/Visual Studio combined project
+
+# These are OS files which have a bad habit of sneaking in
+.DS_Store
+*/.DS_Store
+[Tt]humbs.db
+*/[Tt]humbs.db
+
+# Most the the Unity Library files can be ignored,
+# add those we're tracking directly
+*Unity/Library
+!*Unity/Library/*.asset
+!*Unity/Library/AssetImportState
+!*Unity/Library/AssetVersioning.db
+!*Unity/Library/BuildPlayer.prefs
+!*Unity/Library/ScriptMapper
+!*Unity/Library/assetservercachev3
+!*Unity/Library/expandedItems
+!*Unity/Library/guidmapper
+!*Unity/Library/unity default resources
+!*Unity/Library/unity editor resources
+
+# We don't need the temporary Unity files
+*Unity/Temp
+
+# No need for the Build directory either
+*Unity/build
+
+# Block a bunch of Visual Studio files
+*VS/*.[Oo]bj
+*VS/*.user
+*VS/*.aps
+*VS/*.pch
+*VS/*.vspscc
+*VS/*.vssscc
+*VS/*_i.c
+*VS/*_p.c
+*VS/*.ncb
+*VS/*.suo
+*VS/*.tlb
+*VS/*.tlh
+*VS/*.bak
+*VS/*.[Cc]ache
+*VS/*.ilk
+*VS/*.log
+*VS/*.lib
+*VS/*.sbr
+*VS/*.sdf
+*VS/*.opensdf
+*VS/*.unsuccessfulbuild
+*VS/ipch/
+*VS/obj/
+*VS/[Bb]in
+*VS/[Dd]ebug*/
+*VS/[Rr]elease*/
+*VS/Ankh.NoLoad
+
+# These files are those from tools, they're not needed
+*VS/_ReSharper*/
+*VS/*.resharper
+*VS/[Tt]est[Rr]esult*
+*VS/*.sass-cache
