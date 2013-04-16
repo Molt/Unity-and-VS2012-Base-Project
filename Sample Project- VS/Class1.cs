@@ -7,6 +7,5 @@ namespace Sample_Project__VS
 {
     public class Class1
     {
-        Unity
     }
 }
