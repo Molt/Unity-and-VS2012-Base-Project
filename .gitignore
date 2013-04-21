@@ -27,6 +27,10 @@
 # No need for the Build directory either
 *Unity/build
 
+# Block the UnityVS files from being checked it.
+# It's a useful addon but could confuse systems which don't have it.
+*Unity/Assets/UnityVS
+
 # Block a bunch of Visual Studio files
 *VS/*.[Oo]bj
 *VS/*.user

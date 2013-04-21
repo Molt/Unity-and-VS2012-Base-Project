@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4C1BA2EC-4EA3-BD7C-9338-296E03395F82}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>UnityVS.Sample Project- Unity.CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MonoProfile>unity</MonoProfile>
+    <UnityPath>C:\Program Files (x86)\Unity\Editor</UnityPath>
+    <MonoPath>$(UnityPath)\Data\Mono</MonoPath>
+    <LibraryAssembly>Assembly-CSharp.dll</LibraryAssembly>
+    <TargetFrameworkDirectory>$(MonoPath)\lib\mono\$(MonoProfile)</TargetFrameworkDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_CLOTH;ENABLE_MOVIES;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;ENABLE_DUCK_TYPING;UNITY_4_1_2;UNITY_4_1;ENABLE_PROFILER;UNITY_EDITOR</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_CLOTH;ENABLE_MOVIES;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;ENABLE_DUCK_TYPING;UNITY_4_1_2;UNITY_4_1;ENABLE_PROFILER;UNITY_EDITOR</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib">
+      <HintPath>$(TargetFrameworkDirectory)\mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>$(TargetFrameworkDirectory)\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.XML">
+      <HintPath>$(TargetFrameworkDirectory)\System.XML.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>$(TargetFrameworkDirectory)\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>$(UnityPath)\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>$(UnityPath)\Data\Managed\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="CoherentUINet">
+      <HintPath>Assets\CoherentUI\Plugins\CoherentUINet.dll</HintPath>
+    </Reference>
+    <Reference Include="Sample Project- VS">
+      <HintPath>Assets\Sample Project- VS.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\CoherentUI\Samples\Scenes\Sample02_Facebook\FacebookSampleScript.cs" />
+    <Compile Include="Assets\CoherentUI\Samples\Scenes\Sample03_MenuAndHUD\Game\ObjectPicker.cs" />
+    <Compile Include="Assets\CoherentUI\Samples\Scenes\Sample03_MenuAndHUD\Main Menu\MenuScript.cs" />
+    <Compile Include="Assets\CoherentUI\Samples\Scenes\Sample04_Binding\AutomaticBinding.cs" />
+    <Compile Include="Assets\CoherentUI\Samples\Scenes\Sample04_Binding\GameOptions.cs" />
+    <Compile Include="Assets\CoherentUI\Samples\Scenes\Sample04_Binding\InputForward.cs" />
+    <Compile Include="Assets\CoherentUI\Samples\Scenes\Sample04_Binding\ManualBinding.cs" />
+    <Compile Include="Assets\CoherentUI\Samples\Scenes\Sample05_ArchiveResource\ArchiveInputForward.cs" />
+    <Compile Include="Assets\CoherentUI\Samples\Scenes\Sample05_ArchiveResource\CustomFileHandlerScript.cs" />
+    <Compile Include="Assets\CoherentUI\Samples\Scenes\Sample05_ArchiveResource\tar_cs\DataWriter.cs" />
+    <Compile Include="Assets\CoherentUI\Samples\Scenes\Sample05_ArchiveResource\tar_cs\IArchiveDataWriter.cs" />
+    <Compile Include="Assets\CoherentUI\Samples\Scenes\Sample05_ArchiveResource\tar_cs\ITarHeader.cs" />
+    <Compile Include="Assets\CoherentUI\Samples\Scenes\Sample05_ArchiveResource\tar_cs\LegacyTarWriter.cs" />
+    <Compile Include="Assets\CoherentUI\Samples\Scenes\Sample05_ArchiveResource\tar_cs\TarException.cs" />
+    <Compile Include="Assets\CoherentUI\Samples\Scenes\Sample05_ArchiveResource\tar_cs\TarHeader.cs" />
+    <Compile Include="Assets\CoherentUI\Samples\Scenes\Sample05_ArchiveResource\tar_cs\TarReader.cs" />
+    <Compile Include="Assets\CoherentUI\Samples\Scenes\Sample05_ArchiveResource\tar_cs\TarWriter.cs" />
+    <Compile Include="Assets\CoherentUI\Samples\Scenes\Sample05_ArchiveResource\tar_cs\UsTarHeader.cs" />
+    <Compile Include="Assets\CoherentUI\Samples\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\CoherentUI\Standard Assets\Scripts\CoherentUI\CoherentUISystem.cs" />
+    <Compile Include="Assets\CoherentUI\Standard Assets\Scripts\CoherentUI\CoherentUIView.cs" />
+    <Compile Include="Assets\CoherentUI\Standard Assets\Scripts\CoherentUI\Detail\CoherentExposePropertyAttribute.cs" />
+    <Compile Include="Assets\CoherentUI\Standard Assets\Scripts\CoherentUI\Detail\CoherentMethodAttribute.cs" />
+    <Compile Include="Assets\CoherentUI\Standard Assets\Scripts\CoherentUI\Detail\CoherentUIDialog.cs" />
+    <Compile Include="Assets\CoherentUI\Standard Assets\Scripts\CoherentUI\Detail\CoherentUIViewRenderer.cs" />
+    <Compile Include="Assets\CoherentUI\Standard Assets\Scripts\CoherentUI\Detail\FileHandler.cs" />
+    <Compile Include="Assets\CoherentUI\Standard Assets\Scripts\CoherentUI\Detail\InputManager.cs" />
+    <Compile Include="Assets\CoherentUI\Standard Assets\Scripts\CoherentUI\Detail\License.cs" />
+    <Compile Include="Assets\CoherentUI\Standard Assets\Scripts\CoherentUI\Detail\LogHandler.cs" />
+    <Compile Include="Assets\CoherentUI\Standard Assets\Scripts\CoherentUI\Detail\SystemListener.cs" />
+    <Compile Include="Assets\CoherentUI\Standard Assets\Scripts\CoherentUI\Detail\ViewListener.cs" />
+    <None Include="Assets\CoherentUI\Copyright.txt" />
+    <None Include="Assets\CoherentUI\Plugins\CoherentUINet.dll" />
+    <None Include="Assets\Sample Project- VS.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2012\UnityVS.CSharp.targets" />
+</Project>

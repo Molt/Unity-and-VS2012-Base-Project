@@ -1,0 +1,12 @@
+E:\Projects\Unity-and-VS2012-Base-Project\Sample Project- VS, Test\bin\Debug\Sample Project- VS, Test.dll
+E:\Projects\Unity-and-VS2012-Base-Project\Sample Project- VS, Test\bin\Debug\Sample Project- VS, Test.pdb
+E:\Projects\Unity-and-VS2012-Base-Project\Sample Project- VS, Test\bin\Debug\nunit.framework.dll
+E:\Projects\Unity-and-VS2012-Base-Project\Sample Project- VS, Test\bin\Debug\Sample Project- VS.dll
+E:\Projects\Unity-and-VS2012-Base-Project\Sample Project- VS, Test\bin\Debug\UnityEditor.dll
+E:\Projects\Unity-and-VS2012-Base-Project\Sample Project- VS, Test\bin\Debug\UnityEngine.dll
+E:\Projects\Unity-and-VS2012-Base-Project\Sample Project- VS, Test\bin\Debug\Mono.Cecil.dll
+E:\Projects\Unity-and-VS2012-Base-Project\Sample Project- VS, Test\bin\Debug\ICSharpCode.NRefactory.dll
+E:\Projects\Unity-and-VS2012-Base-Project\Sample Project- VS, Test\bin\Debug\Sample Project- VS.pdb
+E:\Projects\Unity-and-VS2012-Base-Project\Sample Project- VS, Test\obj\Debug\Sample Project- VS, Test.csprojResolveAssemblyReference.cache
+E:\Projects\Unity-and-VS2012-Base-Project\Sample Project- VS, Test\obj\Debug\Sample Project- VS, Test.dll
+E:\Projects\Unity-and-VS2012-Base-Project\Sample Project- VS, Test\obj\Debug\Sample Project- VS, Test.pdb
